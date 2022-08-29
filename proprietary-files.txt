@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 (LE2111_11.C.66).
+## are from OnePlus 10T (CPH2413_11.A.06).
 
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -15,72 +15,93 @@ odm/etc/acdbdata/Speaker_cal.acdb
 odm/firmware/tfa98xx.cnt
 
 # Audio LVIMFS Params
-odm/etc/lvimfs_params/LVACFS_Configuration.txt
-odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
-odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
+odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID11_HE.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID12_HE_APP1.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID13_HE_APP2.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID14_HE_Cam.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID15_HE_Conference.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID16_HE_Fast.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID17_HE_Interview.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID18_HE_Unprocess.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID19_HE_Voice.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID1_MIC_Normal.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID20_HE_VR.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID21_USB_Normal.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID22_USB_APP1.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID23_BT_Normal.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID24_BT_APP1.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID2_MIC_APP1.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID3_MIC_APP2.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID4_MIC_Cam.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID5_MIC_Conference.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID6_MIC_Fast.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID7_MIC_Interview.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID8_MIC_Unprocess.txt
+odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID9_MIC_Voice.txt
 
 # Bluetooth Firmware
-odm/etc/bt/hpnv10.bin
-odm/etc/bt/hpnv10_1.bin
-odm/etc/bt/second_rf.conf
+odm/etc/bt/btsar.cfg
+odm/etc/bt/hpnv21_ch1.bin
+odm/etc/bt/hpnv21_eu.bin
+odm/etc/bt/hpnv21g_ch1.bin
+odm/etc/bt/hpnv21g_eu.bin
+odm/etc/bt/hpnv21g_in.bin
+odm/etc/bt/hpnv21g_na.bin
+odm/etc/bt/hpnv21_in.bin
+odm/etc/bt/hpnv21_na.bin
 
 # Camera
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/ovaltine_imx766
+odm/etc/camera/config/ovaltine_ov02b
+odm/etc/camera/config/ovaltine_ov08d
+odm/etc/camera/config/ovaltine_s5k3p9
 odm/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/calibrationOutput_uw.bin
-odm/etc/camera/calibrationOutput_uw_686.bin
-odm/etc/camera/engineer_camera_config
 odm/etc/camera/settings_fdc.txt
-odm/lib64/camera/com.qti.sensor.imx689.lemonade.so
-odm/lib64/camera/com.qti.sensormodule.lemonade.semco_imx689.bin
-odm/lib64/camera/com.qti.sensormodule.lemonade.shine_gc02m1b.bin
-odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766.bin
-odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766_MP.bin
-odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766_ak7375c.bin
-odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.semco_imx689.bin
-odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_imx766_main.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_ov08d.bin
+odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_s5k3p9.bin
+odm/lib64/camera/com.qti.sensor.ovaltine_imx766.so
+odm/lib64/camera/com.qti.sensor.ovaltine_ov02b.so
+odm/lib64/camera/com.qti.sensor.ovaltine_ov08d.so
+odm/lib64/camera/com.qti.sensor.ovaltine_s5k3p9.so
+odm/lib64/camera/com.qti.tuned.qtech_imx766_main.bin
+odm/lib64/camera/com.qti.tuned.qtech_imx766_main_tmo.bin
+odm/lib64/camera/com.qti.tuned.qtech_ov08d.bin
+odm/lib64/camera/com.qti.tuned.qtech_ov08d_tmo.bin
+odm/lib64/camera/com.qti.tuned.shine_ov02b.bin
+odm/lib64/camera/com.qti.tuned.shine_ov02b_tmo.bin
+odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
+odm/lib64/camera/com.qti.tuned.sunny_s5k3p9_tmo.bin
+
+# Display calibration data
+vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
 
 # Sensors
-odm/etc/sensor/config/lahaina_aw9610x_0.json
-odm/etc/sensor/config/lahaina_aw9610x_down_0.json
-odm/etc/sensor/config/lahaina_bmp380.json
-odm/etc/sensor/config/lahaina_lps22hb.json
-odm/etc/sensor/config/lahaina_qrd_ak0991x.json
-odm/etc/sensor/config/lahaina_qrd_alsps.json
-odm/etc/sensor/config/lahaina_qrd_bmi16x.json
-odm/etc/sensor/config/lahaina_qrd_cct_rear.json
-odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json
-odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
-odm/etc/sensor/config/lahaina_qrd_sx932x.json
-odm/etc/sensor/config/lahaina_qrd_sx932x_down.json
-odm/etc/sensor/config/lahaina_tcs3707.json
+odm/etc/sensor/config/waipio_qrd_ak0991x.json
+odm/etc/sensor/config/waipio_qrd_alsps.json
+odm/etc/sensor/config/waipio_qrd_bmi26x.json
+odm/etc/sensor/config/waipio_qrd_bmp380.json
+odm/etc/sensor/config/waipio_qrd_cct_rear.json
+odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
+odm/etc/sensor/config/waipio_qrd_lps22hb.json
+odm/etc/sensor/config/waipio_qrd_lsm6dso_0.json
+odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
+odm/etc/sensor/config/waipio_qrd_sx933x_0.json
+odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
 odm/etc/sensor/sensor_config.json
+
+# Touchscreen firmware
+odm/firmware/tp/21841/FW_S3910_BOE_FAE.img
+odm/firmware/tp/21841/FW_S3910_BOE.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE_AGING.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE.img
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
