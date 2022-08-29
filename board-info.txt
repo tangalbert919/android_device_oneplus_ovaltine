@@ -1,1 +1,1 @@
-require board=lahaina|OnePlus9
+require board=taro|ovaltine|OP5552L1
