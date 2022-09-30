@@ -9,6 +9,12 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/ovaltine
 
+# Kernel
+BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+TARGET_KERNEL_SOURCE := kernel/oneplus/sm8475
+
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
