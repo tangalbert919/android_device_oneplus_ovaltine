@@ -1,15 +1,11 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2413_11.A.06).
+## are from OnePlus 10T (CPH2413_11.A.08).
 
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
-odm/etc/acdbdata/Bluetooth_cal.acdb
-odm/etc/acdbdata/General_cal.acdb
-odm/etc/acdbdata/Global_cal.acdb
-odm/etc/acdbdata/Handset_cal.acdb
-odm/etc/acdbdata/Hdmi_cal.acdb
-odm/etc/acdbdata/Headset_cal.acdb
-odm/etc/acdbdata/Speaker_cal.acdb
+odm/etc/acdbdata/FTM/acdb_cal.acdb
+odm/etc/acdbdata/TMO/acdb_cal.acdb
+odm/etc/acdbdata/acdb_cal.acdb
 
 # Audio Firmware
 odm/firmware/tfa98xx.cnt
@@ -91,7 +87,6 @@ odm/etc/sensor/config/waipio_qrd_bmp380.json
 odm/etc/sensor/config/waipio_qrd_cct_rear.json
 odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
 odm/etc/sensor/config/waipio_qrd_lps22hb.json
-odm/etc/sensor/config/waipio_qrd_lsm6dso_0.json
 odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
 odm/etc/sensor/config/waipio_qrd_sx933x_0.json
 odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
