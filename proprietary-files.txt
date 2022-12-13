@@ -1,11 +1,20 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2413_11.A.08).
+## are from OnePlus 10T (CPH2417_11.C.22).
 
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/TMO/acdb_cal.acdb
 odm/etc/acdbdata/acdb_cal.acdb
+
+# ADSP modules
+vendor/lib/rfsa/adsp/libVppFrcQnnHtp
+vendor/lib/rfsa/adsp/libVppQnnHtp
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc
+vendor/lib/rfsa/adsp/libvpp_ais_networks
+vendor/lib/rfsa/adsp/libvpp_vqa_networks
+vendor/lib/rfsa/adsp/libvpt_action_recognition
 
 # Audio Firmware
 odm/firmware/tfa98xx.cnt
@@ -57,7 +66,6 @@ odm/etc/camera/config/ovaltine_imx766
 odm/etc/camera/config/ovaltine_ov02b
 odm/etc/camera/config/ovaltine_ov08d
 odm/etc/camera/config/ovaltine_s5k3p9
-odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensormodule.qtech_imx766_main.bin
 odm/lib64/camera/com.qti.sensormodule.qtech_ov08d.bin
