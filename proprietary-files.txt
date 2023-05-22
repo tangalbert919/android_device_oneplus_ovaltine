@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2417_11.C.27).
+## are from OnePlus 10T (CPH2417_13.1.0.520(EX01)).
 
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -66,6 +66,7 @@ odm/etc/camera/config/ovaltine_imx766
 odm/etc/camera/config/ovaltine_ov02b
 odm/etc/camera/config/ovaltine_ov08d
 odm/etc/camera/config/ovaltine_s5k3p9
+odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensormodule.qtech_imx766_main.bin
 odm/lib64/camera/com.qti.sensormodule.qtech_ov08d.bin
@@ -86,6 +87,31 @@ odm/lib64/camera/com.qti.tuned.sunny_s5k3p9_tmo.bin
 
 # Display calibration data
 vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
+
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/lib64/vendor.oplus.hardware.touch-V1-ndk_platform.so
+odm/vendor/firmware/uff_jv.b00
+odm/vendor/firmware/uff_jv.b01
+odm/vendor/firmware/uff_jv.b02
+odm/vendor/firmware/uff_jv.b03
+odm/vendor/firmware/uff_jv.b04
+odm/vendor/firmware/uff_jv.b05
+odm/vendor/firmware/uff_jv.b06
+odm/vendor/firmware/uff_jv.b07
+odm/vendor/firmware/uff_jv.b08
+odm/vendor/firmware/uff_jv.mdt
+odm/vendor/firmware/uff_spi.b00
+odm/vendor/firmware/uff_spi.b01
+odm/vendor/firmware/uff_spi.b02
+odm/vendor/firmware/uff_spi.b03
+odm/vendor/firmware/uff_spi.b04
+odm/vendor/firmware/uff_spi.b05
+odm/vendor/firmware/uff_spi.b06
+odm/vendor/firmware/uff_spi.b07
+odm/vendor/firmware/uff_spi.b08
+odm/vendor/firmware/uff_spi.mdt
 
 # Sensors
 odm/etc/sensor/config/waipio_qrd_ak0991x.json
