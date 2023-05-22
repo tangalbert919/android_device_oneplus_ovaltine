@@ -85,9 +85,6 @@ odm/lib64/camera/com.qti.tuned.shine_ov02b_tmo.bin
 odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
 odm/lib64/camera/com.qti.tuned.sunny_s5k3p9_tmo.bin
 
-# Display calibration data
-vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
-
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
@@ -113,6 +110,11 @@ odm/vendor/firmware/uff_spi.b07
 odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_21841:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_21841:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u.bin
+
 # Sensors
 odm/etc/sensor/config/waipio_qrd_ak0991x.json
 odm/etc/sensor/config/waipio_qrd_alsps.json
@@ -125,12 +127,6 @@ odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
 odm/etc/sensor/config/waipio_qrd_sx933x_0.json
 odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
 odm/etc/sensor/sensor_config.json
-
-# Touchscreen firmware
-odm/firmware/tp/21841/FW_S3910_BOE_FAE.img
-odm/firmware/tp/21841/FW_S3910_BOE.img
-odm/firmware/tp/21841/LIMIT_S3910_BOE_AGING.img
-odm/firmware/tp/21841/LIMIT_S3910_BOE.img
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
